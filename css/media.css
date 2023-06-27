@@ -1,0 +1,123 @@
+@media (max-width:1280px) {
+    .header-part .menu-list {
+        display: none;
+    }
+
+    .header-part .menu-tablet {
+        display: block;
+    }
+
+    .header-part .product-list li .outer-box {
+
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .header-part .product-img ul {
+        padding: 0 !important;
+    }
+
+    .header-part {
+        padding: 10px 20px;
+    }
+
+    .product-list {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .header-part .menu-tablet .tablet-menu-list {
+        width: 100%;
+    }
+
+    .header-part .logo img {
+        height: 40px;
+        width: 150px;
+    }
+
+    .header-part .social-icon-list li a {
+        padding: 5px;
+    }
+
+    .header-part .menu-tablet.change .tablet-menu-list {
+        width: 100%;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list li a img {
+        right: 40px;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list .tablet-sub-menu {
+        padding: 0;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list .tablet-sub-menu-list a {
+        font-size: 20px;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list .tablet-sub-menu-list .back-button a {
+        font-size: 20px;
+    }
+
+    .header-part .search-input-modal .search-modal-content {
+        max-width: 100%;
+    }
+
+    .header-part .menu-tablet .open-menu .bar1, .header-part .menu-tablet .open-menu .bar2, .header-part .menu-tablet .open-menu .bar3 {
+        width: 20px;
+
+    }
+
+    .header-part .menu-tablet.change .open-menu .bar1 {
+        transform: rotate(45deg) translateY(3px);
+    }
+
+    .header-part .menu-tablet.change .open-menu .bar3 {
+        transform: rotate(-45deg) translateY(-3px);
+    }
+
+}
+
+@media (max-width:576px) {
+    .header-part .menu-tablet .tablet-menu-list {
+        padding: 0 15px;
+    }
+
+    .header-part {
+        padding: 10px;
+    }
+
+    .header-part .logo img {
+        height: 26px;
+        width: 115px;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list .tablet-sub-menu {
+        padding: 0;
+    }
+
+    .header-part .menu-tablet .tablet-menu-list li a img {
+        right: 15px;
+    }
+
+    .mobile-d-none {
+        display: none;
+    }
+
+    .header-part .search-input-modal .search-modal-content input {
+        padding: 9px 35px 9px 9px;
+
+    }
+}
